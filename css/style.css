@@ -171,6 +171,7 @@ h2{
 .footer{
     background-color: #AD3232;
     font-family: "Markazi Text", serif;
+    margin-top: auto;
 }
 
 .footer ul{

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadrastro</title>
+    <link rel="stylesheet" href="css/login.css">
+
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <a href="index.html"><li><div class="logo"><img src="img/Captura de tela 2024-05-08 160613.png" alt=""></div></li></a>
+            <li class="texto_nav">log in or register</li>
+            <li class="texto_nav">Filter recipes</li>
+            <li class="texto_nav">My favorites</li>
+            <li><input type="text" placeholder=" search..."><img src="./img/lupa.png"  class="icon-lupa"></li>
+            <li><div class="icon-reorder"><img src="./img/hamburguer.png"></div></li>
+        </ul>
+    </div>
+    <div class="content">
+        <h2>❀ Hello! Welcome to Bakery ❀</h2>
+        <div class='container'>
+              <h1> Cadastrar </h1>
+              <div id='msgError'></div>
+              <div id='msgSuccess'></div>
+              
+                      <div class="label-float">
+                         <label id="labelNome" for="nome">Nome</label><br>
+                         <input type="text" id="nome" placeholder=" " required>
+                      </div>
+          
+                      <div class="label-float">
+                         <label id="labelUsuario" for="Email">Email</label><br>
+                         <input type="text" id="usuario" placeholder=" " required>
+                      </div>
+                      
+                      <div class="label-float">
+                         <label id="labelSenha" for="senha">Senha</label><br>
+                         <input type="password" id="senha" placeholder=" " required>
+                         <i id="verSenha" class="fa fa-eye" aria-hidden="true"></i>
+                         
+                      </div>
+          
+                      <div class="label-float">
+                         <label id="labelConfirmSenha" for="confirmSenha">Confirmar Senha</label><br>
+                         <input type="password" id="confirmSenha" placeholder=" " required>
+                         <i id="verConfirmSenha" class="fa fa-eye" aria-hidden="true"></i>
+                      </div>
+                      
+                      <div class='justify-center'>
+                         <button onclick='cadastrar()'>Cadastrar</button>
+                      </div>
+        </div>
+        <h1 id = "Logado"></h1>
+        <button onclick="Sair()">Sair</button>
+    </div>
+    <div class="footer">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li>More about us</li>
+            <li>Partners organizations</li>
+            <li><div class="logo"><img src="img/Captura de tela 2024-05-08 160613.png" alt=""></div></li>
+        </ul>
+    </div>
+    <script> src="./Bakeri-shop/js/Login.js"</script>
+</body>
+</html>
