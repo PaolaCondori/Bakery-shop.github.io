@@ -73,12 +73,14 @@ h2{
 }
 
 .container {
-
     background-color: #F8AD8C;
-    width: 50vw;
-    height: 50vw; 
+    width: 65vw;
+    height: 35vw; 
     margin-left: auto;
     margin-right: auto;
+    padding-top: 5%;
+    margin-bottom: 200px;
+    padding-bottom: 2%;
 }
 
 .container h1{
@@ -124,13 +126,7 @@ h1{
     transition: all .4s ease-out;
   }
   
-  .justify-center{
-    display: flex;
-    justify-content: center;
-  }
-  
   #msgError{
-    text-align: center;
     color: #ff0000;
     background-color: #ffbbbb;
     padding: 10px;
@@ -139,10 +135,52 @@ h1{
   }
   
   #msgSuccess{
-    text-align: center;
     color: #00bb00;
     background-color: #bbffbe;
     padding: 10px;
     border-radius: 4px;
     display: none;
+  }
+
+  .label-float{
+    font-family: "Lemonada", cursive;
+    font-size: 21px;
+    font-weight: 600;
+  }
+
+  .label-float div{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .label-float div input{
+    padding: 10px;
+    margin-right: 13%;
+    margin-left: 13%;
+    border: none;
+  }
+
+  .label-float div label{
+    margin-right: 55%;
+  }
+
+  .justify-center{
+    display: flex;
+    justify-content: center;
+  }
+
+  .justify-center button{
+    margin: 100px;
+  }
+
+  #labelNome{
+    margin-right: 68%;
+  }
+
+  #labelUsuario{
+    margin-right: 68%;
+  }
+
+  #labelSenha{
+    margin-right: 64%;
   }
