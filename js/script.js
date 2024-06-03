@@ -1,18 +1,28 @@
-const carroussel = [...document.querySelectorAll('.carroussel')];
+const gap = 6;
 
-const arrow_right = [ ...document.querySelectorAll('.arrow-right')]
-const arrow_left = [...document.querySelectorAll('.arrow-left')]
+const carousel = document.getElementById('carousel')
+  content = document.getElementById('content-carousel')
+  next = document.getElementById('arrow-right')
+  prev = document.getElementById('arrow-left')
 
-carroussel.forEach((item, i) => {
-    let containerDimensions = item.getBoundingClientReact();
-    let containerWidth = containerDimensions.width;
+next.addEventListener('click', e => {
+  carousel.scrollBy(width + gap, 0);
+  if (carousel.scrollWidth !== 0) {
+    prev.style.display = "flex";
+  }
+  if (content.scrollWidth - width - gap <= carousel.scrollLeft + width) {
+    next.style.display = "none";
+  }
+});
+prev.addEventListener("click", e => {
+  carousel.scrollBy(-(width + gap), 0);
+  if (carousel.scrollLeft - width - gap <= 0) {
+    prev.style.display = "none";
+  }
+  if (!content.scrollWidth - width - gap <= carousel.scrollLeft + width) {
+    next.style.display = "flex";
+  }
+});
 
-    arrow_right[i].addEventListener('click', () => {
-        item.scrollLeft += containerWidth;
-    })
-
-    arrow_left[i].addEventListener('click', () => {
-        item.scrollLeft -= containerWidth;
-    })
-
-})
+let width = carousel.offsetWidth;
+window.addEventListener("resize", e => (width = carousel.offsetWidth));
