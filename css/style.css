@@ -48,9 +48,9 @@ body{
     border-radius: 0.5vw;
 }
 
-.icon-lupa{
-    height: 1.2vw;
-    width: 1.2vw;
+.mdi mdi-magnify{
+    padding-right: 2vw;
+    
 }
 
 .icon-reorder img{
@@ -183,13 +183,13 @@ h2{
 }
 
 .box-red{
-    color: #AD3232;
     background-color: #AD3232;
     width: 100%;
     height: 12.8vw;
     align-items: center;
     align-content: center;
 }
+
 .box-white{
     color: #ffffff;
     background-color: #ffffff;
@@ -273,11 +273,11 @@ h2{
 
 .box-message{
     background-color: #F8AD8C;
-    margin: 0px 400px 100px 400px;
+    margin: 0vw 29vw 7vw 29vw;
     font-family: "Markazi Text", serif;
     text-align: center;
-    padding: 20px;
-    font-size: 25px;
+    padding: 1.6vw;
+    font-size: 1.8vw;
 }
 
 .footer{
@@ -287,29 +287,30 @@ h2{
     margin-top: auto;
     justify-content: space-between;
     align-items: center;
-    left: 0;
-    bottom: 0;
     width: 100%;
+    height: 10vw;
 }
 
 .footer .social-media{
     display: flex;
     align-items: center;
-    width: 30%;
-    margin-left: 15px;
+    width: 30vw;
 }
 
 .footer .social-media .inst{
-    width: 24%;
+    width: 7.6vw;
+    padding-bottom: 0.2vw;
+    margin-left: 1vw;
 }
 
 .footer .social-media .face{
-   width: 10%;
-   margin-left: 15px;
+   width: 3.5vw;
+   margin-left: 1vw;
 }
 
 .footer .social-media .x{
-    width: 30%;
+    width: 10.2vw;
+    padding-bottom: 0.3vw;
 }
 
 .footer ul{
@@ -317,17 +318,25 @@ h2{
     align-items: center;
 }
 
-.footer ul li{
+.more{
     list-style: none;
-    font-size: 25px;
+    font-size: 2vw;
     color: #fff;
-    margin-right: 200px;
+    padding-right: 14vw;
+}
+
+.partners{
+    list-style: none;
+    font-size: 2vw;
+    color: #fff;
+    padding-right: 8vw;
 }
 
 .footer .logo img{
-    width: 68%;
-    height: 120px;
-    margin-right: 10px;
+    width: 13vw;
+    height: 8vw;
+    margin-right: 1vw;
+    padding: 0vw;
 }
 
 
