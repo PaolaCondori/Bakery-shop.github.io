@@ -43,10 +43,16 @@ body{
 
 .navbar ul li input{
     font-family: "Markazi Text", serif;
-    width: 14vw;
+    width: 15vw;
     height: 2vw;
-    border: 0.5vw solid #F8AD8C;
-    border-radius: 0.5vw;
+    border: 0.4vw solid #F8AD8C;
+    border-radius: 0.8vw;
+  }
+
+  .navbar  ul li input::-webkit-input-placeholder{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
 }
 
 .icon-lupa{
@@ -87,27 +93,6 @@ h2{
     margin-top: 180px;
 }
 
-.footer{
-    background-color: #AD3232;
-    font-family: "Markazi Text", serif;
-    margin-top: auto;
-}
-
-.footer ul{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.footer ul li{
-    list-style: none;
-    font-size: 20px;
-    color: #fff;
-}
-
-.footer ul li img{
-    width: 160px;
-}
 
 h1{
     text-align: center;
@@ -184,3 +169,68 @@ h1{
   #labelSenha{
     margin-right: 64%;
   }
+
+  button{
+    border-radius: 5px;
+    background-color: #e0b29e;
+    border-color: #e0b29e;
+  }
+
+  .footer{
+    display: flex;
+    background-color: #AD3232;
+    font-family: "Markazi Text", serif;
+    margin-top: auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10vw;
+}
+
+.footer .social-media{
+    display: flex;
+    align-items: center;
+    width: 30vw;
+}
+
+.footer .social-media .inst{
+    width: 7.6vw;
+    padding-bottom: 0.2vw;
+    margin-left: 1vw;
+}
+
+.footer .social-media .face{
+   width: 3.5vw;
+   margin-left: 1vw;
+}
+
+.footer .social-media .x{
+    width: 10.2vw;
+    padding-bottom: 0.3vw;
+}
+
+.footer ul{
+    display: flex;
+    align-items: center;
+}
+
+.more{
+    list-style: none;
+    font-size: 2vw;
+    color: #fff;
+    padding-right: 14vw;
+}
+
+.partners{
+    list-style: none;
+    font-size: 2vw;
+    color: #fff;
+    padding-right: 8vw;
+}
+
+.footer .logo img{
+    width: 13vw;
+    height: 8vw;
+    margin-right: 1vw;
+    padding: 0vw;
+}

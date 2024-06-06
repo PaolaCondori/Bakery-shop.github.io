@@ -43,10 +43,16 @@ body{
 
 .navbar ul li input{
     font-family: "Markazi Text", serif;
-    width: 14vw;
+    width: 15vw;
     height: 2vw;
-    border: 0.5vw solid #F8AD8C;
-    border-radius: 0.5vw;
+    border: 0.4vw solid #F8AD8C;
+    border-radius: 0.8vw;
+}
+
+.navbar  ul li input::-webkit-input-placeholder{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
 }
 
 .icon-lupa{
