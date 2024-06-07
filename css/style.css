@@ -114,7 +114,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('/img/Panqueca\ de\ chocolate.jpeg.jpg');
+    background-image: url('./img/Panqueca\ de\ chocolate.jpeg.jpg');
     width: 95%;
     height: 82%;
     background-size: cover;
@@ -124,7 +124,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('/img/cup.jpeg');
+    background-image: url('./img/cup.jpeg');
     width: 95%;
     height: 82%;
     background-size: cover;
@@ -134,7 +134,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('/img/Biscoitos\ de\ coracao.jpeg.jpg');
+    background-image: url('./img/Biscoitos\ de\ coracao.jpeg.jpg');
     width: 95%;
     height: 82%;
     background-size: cover;
@@ -144,7 +144,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('/img/Torta\ de\ figo.jpg');
+    background-image: url('./img/Torta\ de\ figo.jpg');
     width: 95%;
     height: 82%;
     background-size: cover;
