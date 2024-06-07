@@ -1,1 +1,1 @@
-# Bakeri-shop
+# Bakery-shop
